@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Friday Tests">
+    <test name="Webtables Test">
+        <classes>
+            <class name="practice.WebTables"/>
+        </classes>
+    </test>
+    <test name="JavascriptExecutor Test">
+        <classes>
+            <class name="practice.UnderstandingJavascriptExecutor"/>
+        </classes>
+    </test>
+</suite>
+
