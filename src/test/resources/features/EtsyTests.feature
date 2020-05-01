@@ -5,12 +5,13 @@ Feature: Etsy Navigation
 #  Background:
 #    Given I am on the etsy homepage
 #
+  # @FirstScenario
 #  Scenario: Clothing & Shoes Submodule
 #    #Given I am on the etsy homepage
 #    When I click on 'Clothing & Shoes'
 #    Then the site subtitle will be 'Clothing & Shoes'
 #
-#
+#  @SecondScenario
 #  Scenario: Home & Living Submodule
 #    #Given I am on the etsy homepage
 #    When I click on 'Home & Living'
@@ -21,6 +22,7 @@ Feature: Etsy Navigation
     Given I am on the etsy homepage
     When I click on '<subModuleName>'
     Then the site subtitle will be '<subModuleName>'
+
 
 
 

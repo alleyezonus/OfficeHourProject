@@ -34,6 +34,8 @@ public class EtsyStepDefinitions {
     }
 
 
-
-
+    @And("fail my test")
+    public void failMyTest() {
+        Assert.fail();
+    }
 }

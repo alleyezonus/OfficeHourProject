@@ -9,5 +9,11 @@ public class Hook {
     @After("@etsy")
     public void closingDriver(){
         Driver.quit();
+
+    }
+
+    @After("@etsy")
+    public void randomMethod(){
+        System.out.println("Random Print Out");
     }
 }
