@@ -1,0 +1,26 @@
+Gherkin Language  (used in feature file of cucumber)
+    --> format for cucumber
+    --> skeleton of cucumber (template)
+
+  Syntax
+      Features: What the feature (login, homepage, Calendar Events)
+          (Optional Step) User Story
+
+          Scenario: Brief description of what is being done
+            Given [Preconditions or Initial Context]
+            When [Event or Trigger (action)]
+            Then [Expected Output]
+
+Keywords
+    Feature
+    Scenario
+    Given
+    When
+    Then
+       And
+       But
+  (Reusable)Background
+              -- > (takes in common steps of all scenarios in a feature file)
+
+
+   

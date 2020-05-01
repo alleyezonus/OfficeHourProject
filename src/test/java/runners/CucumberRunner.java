@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         glue = "step_definitions",
         dryRun = false,
-        tags="@etsy",
+        tags="@parameters",
         plugin = {"rerun:target/rerun.txt", "html:target/default-cucumber-reports","json:target/cucumber.json"}
 )
 public class CucumberRunner {

@@ -1,0 +1,35 @@
+BDD - Behavior Driven Development
+    Test Scenarios / AC to describe behavior from customer perspective
+    Given, When, Then, And etc
+    ONE DOCUMENT FOR ALL!
+
+Cucumber -
+      Support BDD
+      A way to write test cases that
+      ANYBODY(customers, testers, developers, client) can understand
+
+  Advantages of Cucumber:
+      --> Free!
+      --> Inclusive
+      --> Form reusable code ( Best deal we got)
+
+  Cucumber Components :
+          Feature file --> high level description of test Scenarios
+                            in simple language
+          Step Definitions --> Maps test case steps to code
+                          (Converting feature file into code )
+
+  JUnit (Help us run our code in a single place)
+         CucumberRunner(CukesRunner)
+
+         Step 1 : Create a class(CukesRunner)
+         Step 2: @RunWith(Cucumber.class)annotation (Placed above class)
+         Step 3: @CucumberOptions{
+                      features: [Where the feature files are](start: src)
+                      glue : [Where the step definitions are](start: com)
+                          (start inside the java file(not including java file))
+                      dryRun: [a test run to check if a method is missing]
+                      tags: [group tests to run]
+                      plugin: [additional features]
+
+         }

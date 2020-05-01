@@ -1,0 +1,34 @@
+Git <--> GitHub(40%)( BitBucket)
+Local     Central/Remote
+
+Git is a Version control system (70%)
+ 1. Version 1.0
+ 2. Version 2.0 --> Crash
+
+ Terminal Commands
+    cd <folder name> to go to that folder
+      ^^^  (IS NOT CASE SENSITIVE)
+    ls --> reveals all documents in that folder
+    ls -a  --> reveals all documents (hidden ones as well)
+    touch <filename.fileextension> to creat a filename
+    mkdir <FolderName> to create a folder
+
+ To start a git tracking
+    git init   --> to initialize git tracking
+
+    git status --> to check the status of git
+
+    git add <fileName> --> to STAGE a file
+    git add .   --> to STAGE ALL files
+    git commit -m "Your message"  --> Takes a picture of
+                                          your current file
+    git log --> shows the history of commits
+
+
+    git push --> sends the local commits to remote repo
+    git pull --> pulls the remote repo into local repo
+
+    replit.com
+
+    Username: nurullahcd@gmail.com
+    Password: dreamTeam

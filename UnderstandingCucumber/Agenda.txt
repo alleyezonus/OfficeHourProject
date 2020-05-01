@@ -1,0 +1,9 @@
+--> Cucumber Intro
+--> Gherkin Language Intro
+--> CukesRunner Set Up
+--> Create new maven project -
+--> Transfer pom file, utilities, configuration properties
+--> Create folders: resource/feature , step_definitions, runners
+--> Create files: CukesRunner, login.features,LoginPage Defintions
+--> Cucumber Tags
+--> Cucumber Parameters
