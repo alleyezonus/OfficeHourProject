@@ -1,0 +1,4 @@
+mvn clean  --> clear out the target folder
+mvn test --> execute the indicated java file (indicated in the pom file)
+mvn verify --> a stage thats run after the test usually for reporting purposes
+                -->we added a cucumber reporting at verify stage for beautiful reports
