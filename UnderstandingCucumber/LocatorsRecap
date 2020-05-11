@@ -1,0 +1,84 @@
+XPath
+Absolute --> ignore this
+relative
+
+* -->wildCard
+
+//tagName
+//*[@attribute='value']
+   Pro --> I dont have to backward slashes when coding in java
+   Con --> Sample scenarios
+            //*[@attribute='don't']
+//*[@attribute="value"]
+  Con --> MUST use the backward slashes to print quotes
+
+  @attribute='Text "Quote" More text'
+
+ it can go both ways!!!
+
+ going from child element to parent element example :
+ //div[@id='flash-messages']//parent::div[@class='row']
+
+moving between preceding siblings example
+//div[@id='content']//preceding-sibling::div[@class='row']
+
+//ul//li
+
+
+
+Css Selector ( css selector doesnt work with element text)
+
+[attribute='value'][attribute='value']
+
+ShortCuts
+
+id --> # --> example  #value
+class --> . --> example .value
+
+> or space moves to the next element
+
+contains:
+     * --> refers to contains
+  [id*='partial-value']
+
+Starts-with
+  ^ --> refers to starts-with
+  [id^='partial-value-from-beginning']
+
+Ends-with
+   $ --> refer to ends-with
+  [id$ ='partial-value-from-ending']
+
+
+  :first-of-type --> selects first element from a list of sibling elements
+  :last-of-type --> selects last element from a list of sibling elements
+  :nth-of-type(n) --> selects n th element from a list of sibling elements
+
+  class="btn btn-primary"
+  class="btn btn-primary first-button"  --> .btn.btn-primary.first-button
+
+  .btn.btn-primary not(first-button)
+
+  not keyword is going to look for an element that has the mentioned class value pieces
+  without the indicated NOT class piece
+
+  1st, 2nd, 3rd ,4th...nth
+
+css selector table element
+#table1 tbody tr td:nth-of-type(4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
